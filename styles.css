@@ -197,6 +197,7 @@ input[type = "submit"]
 {
  padding: 15px;
  display: block;
+ border: none;
  background-color: salmon;
 }
 /* END FORM STYLING */
