@@ -153,9 +153,16 @@ body
  margin-left: -16px;
 }
 
+input
+{
+ margin: 5px 0 0 0;
+}
+
 input[type = "text"]
 {
  padding: 10px;
+ display: block;
+ border-radius: 15px;
  border: 1px solid ccc;
  background-color: #fff;
 }
