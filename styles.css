@@ -1,0 +1,144 @@
+body
+{
+ margin: 0;
+ padding: 0;
+ background-color: rgb(250, 128, 114, 0.5);
+}
+
+/* CLEAR FLOAT DECLARATIONS */
+.clear-floats:before, .clear-floats:after
+{
+ content: "";
+ display: table;
+}
+
+.clear-floats:after
+{
+ clear: both;
+}
+
+.clear-floats
+{
+ zoom: 1;
+}
+/* END  CLEAR FLOAT */
+
+/* BAR STYLINGS */
+.lbar
+{
+ text-align: left;
+ float: left;
+ width: 20%;
+ margin-left: 3%;
+ margin-top: -20px;
+}
+
+.lbar img.bod
+{
+ background-color: #fff;
+ border: 1px solid salmon;
+ padding: 3px;
+}
+
+.lbar strong
+{
+ font-size: 15px;
+ font-weight: bolder;
+ color: green;
+}
+
+.lbar p
+{
+ margin: 0;
+ padding: 0;
+}
+
+.lbar h1
+{
+ font-size: 50px;
+ color: green;
+}
+
+.rbar
+{
+ float: right;
+ width: 75%;
+ height: 100%;
+ background-color: #fff;
+ border-left: 5px solid #ccc;
+ box-shadow: -3px 0 5px salmon;
+ text-align: left;
+ border: 1px solid #ccc;
+ padding: 15px;
+ margin-top: -20px;
+ box-sizing: border-box;
+}
+
+.rbar ul
+{
+ padding: 10px;
+ list-style-type: circle;
+ color: brown;
+}
+
+.rbar .shade
+{
+ color: brown;
+}
+/* END BAR STYLING */
+
+/* LABEL STYLING */
+.label-red
+{
+ color: #fff;
+ background-color: red;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+
+.label-orange
+{
+ color: #fff;
+ background-color: orange;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+
+.label-green
+{
+ color: #fff;
+ background-color: green;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+
+.label-blue
+{
+ color: #fff;
+ background-color: blue;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+
+.label-purple
+{
+ color: #fff;
+ background-color: purple;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+
+.label-black
+{
+ color: #fff;
+ background-color: black;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+/* END LABEL STYLING */
