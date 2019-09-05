@@ -151,6 +151,8 @@ body
  padding: 10px;
  border-radius: 0 10px 10px 0;
  margin-left: -16px;
+ text-align: center;
+ color: #fff;
 }
 
 input
@@ -173,7 +175,7 @@ input[type = "text"]
  background-color: #fff;
 }
 
-input[type = "e"]mail
+input[type = "email"]
 {
  padding: 10px;
  display: block;
@@ -186,7 +188,6 @@ input[type = "submit"]
 {
  padding: 10px;
  display: block;
- border-radius: 15px;
  border: 1px solid black;
  background-color: salmon;
 }
