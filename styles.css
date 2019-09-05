@@ -142,3 +142,21 @@ body
  margin-left: -16px;
 }
 /* END LABEL STYLING */
+
+/* START FORM STYLING */
+.ftitle
+{
+ color: #fff;
+ background-color: salmon;
+ padding: 10px;
+ border-radius: 0 10px 10px 0;
+ margin-left: -16px;
+}
+
+input[type = "text"]
+{
+ padding: 10px;
+ border: 1px solid ccc;
+ background-color: #fff;
+}
+/* END FORM STYLING */
