@@ -196,6 +196,8 @@ textarea
 input[type = "submit"]
 {
  padding: 15px;
+ color: #fff;
+ border: 1px solid salmon;
  display: block;
  border: none;
  background-color: salmon;
