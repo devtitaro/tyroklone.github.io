@@ -1,0 +1,338 @@
+/**
+ * 
+ * @Author: titaro
+ * @FB: facebook.com/tyroklonejr
+ * @Twitter: twitter.com/tyroklonejnr
+ * 
+ * @License: FREE
+ */
+
+
+*,
+*::before,
+*::after
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+html
+{
+ font-size: 100%;
+}
+
+body
+{
+ font-family: 'Calibre Regular';
+ padding: 0 5%;
+ background-color: #f9f9f9;
+
+}
+
+/* Scroll bar styling */
+.scrollbar
+{
+ margin-left: 22px;
+ float: left;
+ height: 300px;
+ width: 65px;
+ background: #F5F5F5;
+ overflow-y: scroll;
+ margin-bottom: 25px;
+}
+
+.force-overflow
+{
+ min-height: 450px;
+}
+
+::-webkit-scrollbar
+{
+ width: 6px;
+ background-color: #F5F5F5;
+} 
+
+::-webkit-scrollbar-track
+{
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+ /* background-color: rgb(46, 88, 255); */
+ background-image: linear-gradient(to bottom right, rgb(46, 88, 255), rgb(129, 139, 182));
+}
+
+
+/* Header styling */
+header div.head-con
+{
+ background-color: rgb(46, 88, 255);
+ background-image: linear-gradient(to bottom right, rgb(46, 88, 255), rgb(129, 139, 182));
+ color: #ffffff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: small;
+ padding: 3rem;
+ padding-bottom: 15rem;
+ height: 100%;
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 100%);
+ clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 100%);
+ box-shadow: 0 1rem rgba(0, 0, 0, .5) rgba(0, 0, 0, .5);
+}
+
+header div.head-con div.covid-img img
+{
+ display: block;
+ text-align: center;
+ margin: 3rem auto;
+}
+
+header div.head-con div.text
+{
+ font-weight: 900;
+ font-size: 2rem;
+ font-family: monospace;
+ text-align: center;
+}
+
+
+/* Main content styling */
+main#main-man
+{
+ margin-top: -100%;
+ background-color: #eeeeee;
+ padding: 2rem;
+ padding-top: 100%;
+}
+
+main#main-man .material-icons
+{
+ font-size: 4rem;
+ padding: 2rem;
+ margin-bottom: 1rem;
+ padding-top: 0;
+}
+
+main#main-man section.about div.square
+{
+ background-color: rgb(129, 139, 182);
+ padding: 1.5rem;
+ width: 80%;
+ height: 100%;
+ color: #ffffff;
+ font-weight: 900;
+ font-family: 'Calibre Regular';
+ text-align: center;
+ margin: 1rem auto;
+ border-radius: .5rem .5rem .5rem .5rem;
+ box-shadow: 0 0 2rem rgba(11, 12, 12, .5);
+}
+
+main#main-man section.about div.square p.sq-text
+{
+ font-size: x-large;
+}
+
+main#main-man section.download
+{
+ background-color: rgb(189, 195, 222);
+ color: #ffffff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: small;
+ padding: 8rem;
+ height: 100%;
+ margin: 0 -2rem;
+ margin-top: 5rem;
+ margin-bottom: -2rem;
+ -webkit-clip-path: polygon(0 43%, 100% 0, 100% 100%, 0 100%);
+ clip-path: polygon(0 43%, 100% 0, 100% 100%, 0 100%);
+}
+
+main#main-man .download-con
+{
+ padding-top: 5rem;
+ margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px)
+{
+ main#main-man section.overview .video-con iframe
+ {
+  width: 12.5rem;
+  height: 12.5rem;
+ }
+}
+
+main#main-man section.overview div.overview-con
+{
+ margin-top: 10rem;
+}
+
+main#main-man section.overview .video-con
+{
+ display: block;
+ text-align: center;
+ margin: 0 auto;
+ padding: 1rem;
+ position: relative;
+}
+
+main#main-man section.overview .video-con div#frame
+{
+ background-color: rgba(0, 0, 0, .8);
+ padding: 1.5rem;
+ display: inline-block;
+ border-radius: 1.5rem;
+}
+
+main#main-man section.overview .video-con img.stand
+{
+ width: 10rem;
+ height: 5rem;
+ display: block;
+ margin: 0 auto;
+}
+
+/* Utilities */
+.sub-head
+{
+ background-image: linear-gradient(to right, rgb(46, 88, 255) 30%, rgb(129, 139, 182));
+ font-size: 2rem;
+ font-family: 'Calibre Regular';
+ font-weight: 900;
+ -webkit-background-clip: text;
+ background-clip: text;
+ text-align: center;
+ text-transform: uppercase;
+ color: transparent;
+ margin: 5rem auto;
+}
+
+.download
+{
+ background-color: rgb(46, 88, 255);
+ padding: 2rem;
+ text-align: center;
+ font-size: 1.5rem;
+ text-transform: uppercase;
+ font-weight: 900;
+ color: #fff;
+ margin: 10rem -2rem;
+ margin-bottom: -2rem;
+ box-shadow: 0 1rem 3rem rgba(0, 0, 0, .5);
+}
+
+a
+{
+ text-decoration: none;
+}
+
+/* Column styling */
+/*  SECTIONS  */
+.section
+{
+ clear: both;
+ padding: 0px;
+ margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col
+{
+ display: block;
+ float:left;
+ margin: 1% 0 1% 2%;
+}
+
+.col:first-child
+{
+ margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after
+{
+ content:"";
+ display:table;
+}
+
+.group:after
+{
+ clear:both;
+}
+
+.group
+{
+ zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3
+{
+ width: 100%;
+}
+
+.span_2_of_3
+{
+ width: 66%;
+}
+
+.span_1_of_3
+{
+ width: 32%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px)
+{
+ .col
+ {
+  margin: 1% 0 1% 0%;
+ }
+ 
+ .span_3_of_3, .span_2_of_3, .span_1_of_3
+ {
+  width: 100%;
+ }
+}
+
+/* Footer syling */
+footer
+{
+ margin-top: 5rem;
+}
+
+footer div.foot-con
+{
+ padding: .3rem;
+}
+
+footer div.foot-con .coffee
+{
+ cursor: pointer;
+ background-color: #000;
+ padding: .8rem;
+ width: 4rem;
+ height: 4rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ border-radius: 50%;
+ font-size: .99rem;
+ font-weight: bolder;
+ box-shadow: 0 0 1rem rgba(11, 12, 12, .9);
+ margin: .9rem auto;
+ margin-top: -2rem;
+ text-transform: uppercase;
+}
+
+footer div.foot-con .coffee li
+{
+ color: #f9f9f9;
+ font-size: 2rem;
+}
